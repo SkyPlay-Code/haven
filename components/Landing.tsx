@@ -13,7 +13,7 @@ export const Landing: React.FC<LandingProps> = ({ onUnlock }) => {
   const handleUnlock = (e: React.FormEvent) => {
     e.preventDefault();
     const cleanPass = password.toLowerCase().trim();
-    if (cleanPass === 'iniibig' || cleanPass === 'saby' || cleanPass === 'sabrina') {
+    if (cleanPass === 'iniibig' || cleanPass === 'saby' || cleanPass === 'srabanee') {
       onUnlock();
     } else {
       setError(true);
@@ -95,7 +95,7 @@ export const Landing: React.FC<LandingProps> = ({ onUnlock }) => {
                 type="password" 
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder="Access Code (Iniibig)"
+                placeholder="Love (Tagalog but deep)"
                 className={`w-full bg-black/40 border ${error ? 'border-red-500 animate-shake' : 'border-emerald/30 focus:border-emerald/80'} 
                 rounded-full py-3.5 pl-11 pr-4 text-emerald-100 placeholder-emerald/40 outline-none backdrop-blur-md transition-all font-mono tracking-widest text-center text-sm shadow-lg focus:shadow-emerald/20`}
             />
