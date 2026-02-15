@@ -7,14 +7,14 @@ export const Watchface: React.FC = () => {
     // Set Target: Summer Break (e.g., June 1st of the current/next year)
     const now = new Date();
     let targetYear = now.getFullYear();
-    const targetMonth = 5; // June (0-indexed)
+    const targetMonth = 1; // June (0-indexed)
     
     // If we are past June, aim for next year
     if (now.getMonth() > targetMonth) {
         targetYear++;
     }
 
-    const targetDate = new Date(targetYear, targetMonth, 1);
+    const targetDate = new Date(targetYear, targetMonth, 23);
 
     const interval = setInterval(() => {
         const current = new Date();

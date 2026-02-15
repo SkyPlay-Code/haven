@@ -78,10 +78,10 @@ I’ll wrap the universe around your skin.
 
 I’ll kiss the palms of your tired hands,
 And build the kingdom your heart demands,
-No 'What If' ghosts or 'Mr. Z',
-Just the 'Swayam' truth that you’re meant for me.
+No 'What If' ghosts or the unknown,
+Just me and the truth that you’re meant for me.
 
-So sleep, my Emerald, rest your brain,
+So my Emerald, rest your brain,
 I’ll be the umbrella in your rain,
 Beyond the logic, the code, the art,
 I’ve locked your soul inside my heart.`
